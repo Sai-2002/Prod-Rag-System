@@ -5,6 +5,14 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "fastapi>=0.162.5",
+    "langchain>=1.5.0",
+    "langchain-community>=0.4.2",
+    "langchain-ollama>=1.1.0",
+    "langchain-postgres>=0.0.19",
     "numpy>=2.5.4",
     "ollama>=0.6.3",
+    "pydantic>=2.14.3",
+    "python-dotenv>=1.2.4",
+    "uvicorn>=0.54.0",
 ]
